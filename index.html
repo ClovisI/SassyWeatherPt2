@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>What's your weather like?</title>
+
+	</head>
+	<body>
+		<main>
+			<h1>Whether you're ready or not,</h1>
+			<h2>Here's today's weather:</h2>
+			<fieldset>
+				<legend>Please select your location:</legend>
+				<ul>
+						<label for="seattle"><li><input type="button" name="cityChoice" value="whatsWeather(47.6762,-122.3182)">Seattle</li></label>
+						<label for="london"><li><input type="button" name="cityChoice" value="whatsWeather(51.5074,0.1278)">London</li></label>
+						<label for="my-location"><li><input type="button" name="cityChoice" value="My Location">My Location</li></label>
+				</ul>
+			</fieldset>
+			<fieldset>
+				<legend>What's the type of temperature you prefer?</legend>
+				<label for="Celcius"><input type="radio" name="tempType" value="Celcius">Celcius</label>
+				<label for="Fahrenheit"><input type="radio" name="tempType" value="Fahrenheit">Fahrenheit</label>
+			</fieldset>
+			<input type="button" value="submit" onclick="whatsWeather(document.getElementBy)">
+		</main>
+	</body>
+</html>

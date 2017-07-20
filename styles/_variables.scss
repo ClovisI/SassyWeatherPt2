@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro");
+$maven: 'Maven-Pro', sans-serif;
+$header: blue;
+$nav: black;
+$body: green;
+$main: yellow;
+$h1: green;
+$h2: white;
+$legend: red;
+$img: orange;
+$aside: purple;
+$button: green;
+$footer: pink;
+
+
+//hot
+@mixin hot {
+	$h2:red;
+	$h1:red;
+}
+
+//medium
+@mixin medium {
+
+}
+
+// cool
+@mixin cool{
+
+}
+//cold
+@mixin cold{
+
+}
+
+@mixin city{
+
+}
+
+@mixin temp {
+	
+}
+
+// seattle
+@mixin seattle {
+
+}
+// london
+@mixin london {
+
+}
